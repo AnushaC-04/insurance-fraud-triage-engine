@@ -26,6 +26,20 @@ This project provides a **fraud triage pipeline** that helps prioritize claims f
 4. **LLM Audit Generation**
    - Uses Google Gemini to convert the ML prediction and SHAP explanations into a structured investigation summary.
 
+## 📸 Screenshots
+
+### FastAPI Swagger Documentation
+
+The project exposes an interactive REST API through FastAPI and Swagger UI.
+
+![FastAPI Swagger Documentation](screenshots/Swagger API overview.png)
+
+### Fraud Triage Prediction
+
+The `/predict` endpoint returns the ML fraud probability, optimized decision threshold, SHAP feature attributions, and structured Gemini-generated audit report.
+
+![Fraud Triage Prediction](screenshots/prediction-result.png)
+
 ---
 
 ## 🧠 System Architecture
